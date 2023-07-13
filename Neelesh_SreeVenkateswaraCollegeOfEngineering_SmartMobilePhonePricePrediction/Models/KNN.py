@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 
 #reading the CSV file and stores its contents in a dataset - "Pandas DataFrame object"
-dataset = pd.read_csv('E:\Mobile Price Classification\Data/train.csv')
+dataset = pd.read_csv('E:\\intelrepo\\Neelesh_SreeVenkateswaraCollegeOfEngineering_SmartMobilePhonePricePrediction\\Data\\train.csv')
 
 #selecting all rows and all columns except for the last column of the DataFrame and assigns it to the variable x.
 x=dataset.iloc[:,:-1].values

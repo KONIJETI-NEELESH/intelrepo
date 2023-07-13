@@ -14,7 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 
 #reading the CSV file and stores its contents in a dataset - "Pandas DataFrame object"
-dataset = pd.read_csv('E:\Mobile Price Classification\Data/train.csv')
+dataset = pd.read_csv('E:\\intelrepo\\Neelesh_SreeVenkateswaraCollegeOfEngineering_SmartMobilePhonePricePrediction\\Data\\train.csv')
 
 #displaying the first five records of the dataset
 print(dataset.head())
